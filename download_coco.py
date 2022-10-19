@@ -61,8 +61,9 @@ maximum value if the dataset does not contain sufficient samples matching your r
 #session = fo.launch_app(dataset)
 
 #
-# Load segmentations for 25 samples from the validation split that
-# contain cats and dogs
+# Load detection for all samples from the validation, train and test split that
+# contain "bicycle", "motorcycle", "bus", "truck", "car", "train", "stop sign", 
+# "traffic light", "fire hydrant" and "parking meter"
 #
 # Images that contain all `classes` will be prioritized first, followed
 # by images that contain at least one of the required `classes`. If
