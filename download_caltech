@@ -1,0 +1,9 @@
+# Caltech dataset is on the smaller side, being of only 1.16 gb
+# This dataset is only for image classification 
+
+import fiftyone as fo
+import fiftyone.zoo as foz
+
+dataset = foz.load_zoo_dataset("caltech256")
+
+session = fo.launch_app(dataset)
